@@ -15,6 +15,7 @@ nav {
     width: 100%;
     position: fixed;  
     background-color: #FFF;
+    z-index: 10;
 }
 
 .logo {
@@ -74,7 +75,7 @@ nav a {
 }
 .main {
     background-color: #FFF;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 5px 35px 0px 35px;
     display: flex;
@@ -143,6 +144,7 @@ nav a {
     height: 550px;
     align-items: center;
     padding: 30px 0px;
+    justify-content: space-around;
     
 }
 
@@ -183,13 +185,11 @@ nav a {
     top: 5px;
     right: -20px;
 }
-
-
-
 .print {
     display: flex;
     flex-direction: column;
     width: 450px;
+    margin-left: 10px;
 }
 @keyframes bounce {
 
